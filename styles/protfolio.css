@@ -82,8 +82,8 @@ main {
     margin: 0 auto;
 }
 
-section{
-    margin-top: 130px;  
+section {
+    margin-top: 130px;
 }
 
 /* About section styles */
@@ -111,51 +111,89 @@ section{
     margin-bottom: 30px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about .info-title{
-  font-size: 20px;
-  color:#757575  
+.about .info-title {
+    font-size: 20px;
+    color: #757575
 }
 
-.info-description{
+.info-description {
     font-weight: 700;
     font-size: 20px;
-    color:#474747
+    color: #474747
 }
 
 /* What i so styles */
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     background-color: #FFFFFF;
     box-shadow: 0px 6px 50px 0px #0000000F;
     border-radius: 5px;
     padding: 30;
 }
-.skill-title{
-   
-   font-weight: 700;
-   font-size: 20px; 
-   margin-top: 30px;
-   margin-bottom: 20px;
+
+.skill-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 60px;
 }
 
-.skill-description{
+.skill-description {
     color: #757575;
 }
 
 /* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+
+    font-size: 25px;
+    font-weight: 700;
+   color: #474747;
+   margin-bottom: 10px;
+
+}
+
+.resume .sub-title {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    
+
+}
+
+.resume-button{
+    margin-top:50px ;
+    text-align: center;
+}
+
+.rusume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
